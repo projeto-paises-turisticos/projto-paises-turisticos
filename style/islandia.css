@@ -1,0 +1,325 @@
+
+/* ================================
+   RESET
+================================ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    color: #ffffff;
+    background: #071521;
+}
+
+/* ================================
+   HEADER
+================================ */
+header {
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+
+    background:
+        linear-gradient(
+            rgba(3, 15, 27, 0.65),
+            rgba(3, 15, 27, 0.85)
+        ),
+        url("https://images.unsplash.com/photo-1504893524553-b855bce32c67?auto=format&fit=crop&w=1920&q=80");
+
+    background-size: cover;
+    background-position: center;
+}
+
+/* ================================
+   NAVBAR
+================================ */
+nav {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+
+    padding: 25px 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+nav h2 {
+    font-size: 25px;
+    letter-spacing: 1px;
+    color: #ffffff;
+
+    text-shadow:
+        0 0 10px rgba(0, 220, 255, 0.6);
+}
+
+nav ul {
+    list-style: none;
+
+    display: flex;
+    gap: 35px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    position: relative;
+
+    transition: 0.3s;
+}
+
+/* Linha embaixo do menu */
+nav ul li a::after {
+    content: "";
+
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+
+    width: 0;
+    height: 2px;
+
+    background: #54eaff;
+
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #54eaff;
+
+    text-shadow:
+        0 0 10px #54eaff;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+/* ================================
+   HERO
+================================ */
+.hero {
+    min-height: calc(100vh - 90px);
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    padding: 40px 20px;
+}
+
+/* Pequeno brilho atrás do conteúdo */
+.hero::before {
+    content: "";
+
+    position: absolute;
+
+    width: 500px;
+    height: 300px;
+
+    background: #00eaff;
+
+    filter: blur(150px);
+
+    opacity: 0.12;
+
+    border-radius: 50%;
+
+    pointer-events: none;
+}
+
+/* ================================
+   TÍTULO
+================================ */
+.hero h1 {
+    position: relative;
+
+    max-width: 900px;
+
+    font-size: clamp(42px, 7vw, 82px);
+
+    line-height: 1.05;
+
+    margin-bottom: 25px;
+
+    color: #ffffff;
+
+    text-shadow:
+        0 0 10px rgba(255, 255, 255, 0.4),
+        0 0 30px rgba(0, 220, 255, 0.3);
+}
+
+.hero p {
+    position: relative;
+
+    max-width: 650px;
+
+    font-size: 20px;
+
+    line-height: 1.6;
+
+    color: #d8e9f2;
+
+    margin-bottom: 40px;
+}
+
+/* ================================
+   BOTÕES
+================================ */
+.botoes {
+    position: relative;
+
+    display: flex;
+    gap: 20px;
+}
+
+.botoes button {
+    min-width: 150px;
+
+    padding: 15px 30px;
+
+    border: 2px solid #54eaff;
+    border-radius: 30px;
+
+    background: rgba(0, 200, 255, 0.08);
+
+    color: #ffffff;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+
+    box-shadow:
+        0 0 10px rgba(84, 234, 255, 0.2);
+}
+
+.botoes button:hover {
+    background: #54eaff;
+
+    color: #071521;
+
+    transform: translateY(-5px);
+
+    box-shadow:
+        0 0 10px #54eaff,
+        0 0 25px #54eaff,
+        0 0 50px rgba(84, 234, 255, 0.6);
+}
+
+.botoes button:active {
+    transform: translateY(-2px);
+}
+
+/* ================================
+   EFEITO AURORA
+================================ */
+header::after {
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+    left: -20%;
+
+    width: 140%;
+    height: 180px;
+
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(0, 255, 200, 0.15),
+        rgba(0, 220, 255, 0.25),
+        rgba(120, 0, 255, 0.15),
+        transparent
+    );
+
+    filter: blur(35px);
+
+    transform: rotate(-5deg);
+
+    animation: aurora 7s ease-in-out infinite alternate;
+
+    pointer-events: none;
+}
+
+@keyframes aurora {
+    0% {
+        transform: translateX(-10%) rotate(-5deg);
+        opacity: 0.4;
+    }
+
+    50% {
+        opacity: 0.8;
+    }
+
+    100% {
+        transform: translateX(10%) rotate(-3deg);
+        opacity: 0.5;
+    }
+}
+
+/* ================================
+   RESPONSIVIDADE
+================================ */
+@media (max-width: 700px) {
+
+    nav {
+        flex-direction: column;
+        gap: 20px;
+
+        padding: 20px 0;
+    }
+
+    nav ul {
+        gap: 20px;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+    }
+
+    .hero {
+        min-height: calc(100vh - 130px);
+    }
+
+    .hero h1 {
+        font-size: 45px;
+    }
+
+    .hero p {
+        font-size: 17px;
+    }
+
+    .botoes {
+        flex-direction: column;
+        width: 100%;
+        max-width: 280px;
+    }
+
+    .botoes button {
+        width: 100%;
+    }
+}
+
