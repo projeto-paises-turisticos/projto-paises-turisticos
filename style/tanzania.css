@@ -1,0 +1,276 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#041f1e,#0b4f3c,#1d7f5d);
+    color:white;
+}
+
+/* HEADER */
+
+header{
+    min-height:100vh;
+}
+
+/* NAV */
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:25px 8%;
+    background:rgba(0,0,0,.3);
+    backdrop-filter:blur(10px);
+}
+
+nav h2{
+    font-size:32px;
+    color:#ffe66d;
+}
+
+nav ul{
+    list-style:none;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#00ffae;
+}
+
+/* HERO */
+
+.hero{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+/* IMAGEM */
+
+.imagem{
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+
+.imagem img{
+    width:90%;
+    max-width:1200px;
+    height:500px;
+    object-fit:cover;
+    border-radius:0 0 20px 20px;
+    border-bottom:5px solid #00ffae;
+    box-shadow:0 15px 30px rgba(0,0,0,.4);
+}
+
+/* TEXTO */
+
+.texto{
+    width:85%;
+    max-width:1000px;
+    text-align:left;
+    margin-top:40px;
+}
+
+.texto h1{
+    font-size:60px;
+    color:#ffe66d;
+    margin-bottom:20px;
+}
+
+.texto p{
+    font-size:22px;
+    line-height:1.8;
+    margin-bottom:35px;
+}
+
+/* BOTÕES */
+
+.botoes{
+    width:100%;
+    display:flex;
+    justify-content:flex-end;
+    gap:20px;
+}
+
+button{
+    padding:15px 35px;
+    border:none;
+    border-radius:12px;
+    background:#0b8f63;
+    color:white;
+    font-size:17px;
+    cursor:pointer;
+    transition:.4s;
+    box-shadow:0 0 10px #00ffae;
+}
+
+button:hover{
+    background:#00ffae;
+    color:#063326;
+    transform:translateY(-5px);
+    box-shadow:
+        0 0 10px #00ffae,
+        0 0 20px #00ffae,
+        0 0 40px #00ffae,
+        0 0 70px #00ffae;
+}
+
+/* CARDS */
+
+.informacoes{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:30px;
+    padding:70px 8%;
+}
+
+.box{
+    width:300px;
+    background:rgba(255,255,255,.12);
+    backdrop-filter:blur(10px);
+    border:2px solid rgba(255,255,255,.2);
+    border-radius:20px;
+    padding:30px;
+    text-align:center;
+    transition:.4s;
+}
+
+.box:hover{
+    transform:translateY(-10px);
+    box-shadow:0 0 20px #00ffae;
+}
+
+.box h3{
+    color:#ffe66d;
+    margin-bottom:15px;
+    font-size:24px;
+}
+
+.box p{
+    line-height:1.7;
+}
+
+/* FOOTER */
+
+footer{
+    background:#02110d;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+}
+
+/* MODAL */
+
+.modal{
+    display:none;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,.75);
+    justify-content:center;
+    align-items:center;
+    z-index:999;
+}
+
+.modal-content{
+    background:white;
+    color:#333;
+    width:80%;
+    max-width:650px;
+    padding:30px;
+    border-radius:20px;
+    border:3px solid #00ffae;
+    position:relative;
+    animation:aparecer .4s;
+}
+
+.modal-content h2{
+    color:#0b8f63;
+    margin-bottom:20px;
+}
+
+.modal-content p{
+    line-height:1.8;
+}
+
+.fechar{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size:30px;
+    cursor:pointer;
+    color:#0b8f63;
+}
+
+.fechar:hover{
+    color:#00ffae;
+}
+
+@keyframes aparecer{
+    from{
+        opacity:0;
+        transform:translateY(-40px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+/* RESPONSIVO */
+
+@media(max-width:900px){
+
+    nav{
+        flex-direction:column;
+        gap:15px;
+    }
+
+    .imagem img{
+        width:100%;
+        height:300px;
+        border-radius:0;
+    }
+
+    .texto{
+        width:90%;
+        text-align:center;
+    }
+
+    .texto h1{
+        font-size:40px;
+    }
+
+    .texto p{
+        font-size:18px;
+    }
+
+    .botoes{
+        justify-content:center;
+        flex-wrap:wrap;
+    }
+
+    button{
+        width:220px;
+    }
+
+    .informacoes{
+        flex-direction:column;
+        align-items:center;
+    }
+
+}
