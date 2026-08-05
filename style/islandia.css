@@ -323,3 +323,58 @@ header::after {
     }
 }
 
+/* MODAL */
+
+.modal{
+    display:none;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,.7);
+    justify-content:center;
+    align-items:center;
+    z-index:1000;
+}
+
+.modal-content{
+    background:#fff;
+    width:80%;
+    max-width:600px;
+    padding:30px;
+    border-radius:15px;
+    position:relative;
+    animation:aparecer .4s;
+}
+
+.modal-content h2{
+    color:#281797;
+    margin-bottom:15px;
+}
+
+.modal-content p{
+    line-height:1.8;
+    color: #071521;
+    text-align:justify;
+}
+
+.fechar{
+    position:absolute;
+    right:20px;
+    top:15px;
+    font-size:32px;
+    cursor:pointer;
+    color:#ffffff;
+}
+
+@keyframes aparecer{
+    from{
+        opacity:0;
+        transform:translateY(-40px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
