@@ -4,46 +4,152 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Descubra a Mongólia</title>
+
     <link rel="stylesheet" href="/style/mongolia.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
 <header>
 
     <nav>
-        <h2>🐎 Mongólia</h2>
+
+        <div class="logo">
+            🐎 <span>Mongólia</span>
+        </div>
 
         <ul>
-            <li><a href="/index.html">Início</a></li>
+            <li><a href="/index.html">🏠 Início</a></li>
         </ul>
+
     </nav>
 
-    <div class="hero">
+</header>
 
-        <img src="https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1200&q=80" alt="Mongólia">
+<section class="hero">
 
-        <h1>Bem-vindo à Mongólia 💙</h1>
+    <div class="hero-overlay"></div>
+
+    <div class="hero-conteudo">
+
+        <span class="subtitulo">
+            Explore a Ásia Central
+        </span>
+
+        <h1>Bem-vindo à Mongólia</h1>
 
         <p>
-            Conheça um país repleto de paisagens naturais, cultura nômade,
-            cavalos e o famoso Deserto de Gobi.
+            Descubra um dos países mais fascinantes do planeta, conhecido por
+            suas extensas estepes, montanhas, o lendário Deserto de Gobi,
+            cultura nômade e pela história do grande Império Mongol.
         </p>
 
         <div class="botoes">
-            <button id="btnHistoria">📖 História</button>
-            <button id="btnTurismo">🌿 Turismo</button>
+
+            <button id="btnHistoria">
+                📖 História
+            </button>
+
+            <button id="btnTurismo">
+                🌿 Turismo
+            </button>
+
         </div>
 
     </div>
 
-</header>
+    <div class="hero-imagem">
+
+        <img
+        src="https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?w=1200"
+        alt="Paisagem da Mongólia">
+
+    </div>
+
 </section>
+
+
+</section>
+
+<!-- Modal História -->
+
+<div id="modalHistoria" class="modal">
+
+    <div class="modal-content">
+
+        <span class="fechar" id="fecharHistoria">&times;</span>
+
+        <h2>📖 História da Mongólia</h2>
+
+        <p>
+
+            A Mongólia ficou conhecida por ser o berço do
+            Império Mongol, criado por Gêngis Khan no século XIII.
+            Durante esse período tornou-se o maior império contínuo
+            da história.
+
+            Atualmente, o país preserva suas tradições nômades,
+            festivais culturais e uma forte ligação com a natureza.
+
+        </p>
+
+    </div>
+
+</div>
+
+<!-- Modal Turismo -->
+
+<div id="modalTurismo" class="modal">
+
+    <div class="modal-content">
+
+        <span class="fechar" id="fecharTurismo">&times;</span>
+
+        <h2>🌿 Turismo</h2>
+
+        <p>
+
+            Entre os principais pontos turísticos estão:
+
+            <br><br>
+
+            • Deserto de Gobi
+
+            <br>
+
+            • Parque Nacional Gorkhi-Terelj
+
+            <br>
+
+            • Lago Khövsgöl
+
+            <br>
+
+            • Estátua Equestre de Gêngis Khan
+
+            <br>
+
+            • Praça Sükhbaatar
+
+            <br>
+
+            • Capital Ulaanbaatar
+
+        </p>
+
     </div>
 
 </div>
 
 <footer>
-    <p>💙 2026 • Descubra a Mongólia</p>
+
+    <p>
+        © 2026 • Descubra a Mongólia • Todos os direitos reservados.
+    </p>
+
 </footer>
 
 <script src="/script/mongolia.js"></script>
