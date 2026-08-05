@@ -95,19 +95,6 @@ O projeto foi desenvolvido para demonstrar conhecimentos em desenvolvimento Fron
 
 ---
 
-## 📸 Demonstração
-
-A página inicial apresenta um país em destaque e permite navegar pelos demais destinos por meio de cards interativos.
-
-Cada página possui:
-
-- História do país
-- Principais atrações
-- Informações turísticas
-- Layout personalizado
-
----
-
 ## 🚀 Como Executar
 
 1. Clone este repositório:
@@ -127,7 +114,11 @@ index.html
 Não é necessário instalar dependências.
 
 ---
+## 📚 Aprendizados
 
+Durante o desenvolvimento deste projeto, aprendi a utilizar **HTML, CSS, JavaScript** e também o **Git Bash** para controlar as versões do projeto. Desenvolvi habilidades com comandos como `git add`, `git commit`, `git push` e `git pull`, compreendendo melhor o processo de versionamento e publicação de projetos no GitHub.
+
+---
 ## 👩‍💻 Desenvolvido por
 
 **Thaís Gimenez Silva**
