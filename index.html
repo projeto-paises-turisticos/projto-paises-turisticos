@@ -1,75 +1,144 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>10 países turísticos</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explorar - Descubra lugares incríveis</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style/index.css">
 </head>
 <body>
 
-    <header class="header">
-        <div class="header-container">
-            <div class="logo">
-                <div class="logo-icon">
-                </div>
-                <span>10 PAISES <strong>TURISTICOS</strong></span>
-            </div>
-            <nav class="nav-tabs">
-                <a href="index.html" class="tab-btn">
-                    <i class="fa-solid fa-layer-group"></i>PAISES
-                </a>
-                <a href="pages/islandia.html" class="tab-btn">
-                    <i class="fa-solid fa-tag"></i>Islandia
-                </a>
-                <a href="pages/india.html" class="tab-btn">
-                    <i class="fa-solid fa-screwdriver-wrench"></i>India
-                </a>
-                <a href="pages/egito.html" class="tab-btn">
-                    <i class="fa-solid fa-tag"></i>Egito
-                </a>
-                <a href="pages/tanzania.html" class="tab-btn">
-                    <i class="fa-solid fa-tag"></i>Tanzania
-                </a>
-                <a href="pages/mongolia.html" class="tab-btn">
-                    <i class="fa-solid fa-tag"></i>Mongolia
-                </a>
-            </nav>
-        </div>
+  <div class="container">
+    <header>
+      <div class="title-container">
+        <h1>EXPLORAR</h1>
+        <span class="header-emoji">🌍</span>
+      </div>
+      <p class="subtitle">Descubra lugares incríveis pelo mundo ✈️</p>
     </header>
 
-    <main class="main-wrapper">
-        <section class="tab-content active-content">
-            <div class="section-card">
-                <div class="section-header">
-                </div>
-                <h2>TOP 10 PAISES</h2>
-                <p class="subtitle">Consulte os 10 paises mais diversificado para turismo</p>
-            </div>
-            <div class="search-box">
-                <i class="fa-solid fa-magnifyling-glass"></i>
-                <input type="text" id="search-input" placeholder="Pesquisar paises">
-            </div>
+    <div class="grid">
+      <!-- Japão -->
+       <section> <a href="/pages/japao.html"></a>
+      <div class="card">
+       
+        <div class="card-image-wrapper">
+          <span class="country-title-overlay">Japão</span>
+          <img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=800&q=80" alt="Japão - Monte Fuji e Templos">
         </div>
-        <div class="table-container">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Japao</th>
-                        <th>Islandia</th>
-                        <th>Marrocos</th>
-                        <th>India</th>
-                        <th>bolívia</th>
-                        <th>Egito</th>
-                        <th>Vietna</th>
-                        <th>Tanzania</th>
-                        <th>Turquia</th>
-                        <th>Mongolia</th>
-                    </tr>
-                </thead>
-            </table>
+        <div class="card-content">
+          <p class="card-description">Mistura alta tecnologia com templos antigos e tradições milenares.</p>
         </div>
         </section>
-    </main>
-    
+      </div>
+
+      <!-- Islândia -->
+      <div class="card">
+        <div class="card-image-wrapper">
+          <span class="country-title-overlay">Islândia</span>
+          <img src="https://images.unsplash.com/photo-1504893524553-b855bce32c67?auto=format&fit=crop&w=800&q=80" alt="Islândia - Aurora Boreal e Cachoeiras">
+        </div>
+        <div class="card-content">
+          <p class="card-description">Terra de gêiseres, vulcões, cachoeiras gigantes e auroras boreais.</p>
+        </div>
+      </div>
+
+      <!-- Marrocos -->
+      <div class="card">
+        <div class="card-image-wrapper">
+          <span class="country-title-overlay">Marrocos</span>
+          <img src="https://images.unsplash.com/photo-1539037116277-4db20889f2d4?auto=format&fit=crop&w=800&q=80" alt="Marrocos - Arquitetura e Mercados">
+        </div>
+        <div class="card-content">
+          <p class="card-description">Mercados coloridos, desertos de areia e arquitetura islâmica detalhada.</p>
+        </div>
+      </div>
+
+      <!-- Índia -->
+      <div class="card">
+        <div class="card-image-wrapper">
+          <span class="country-title-overlay">Índia</span>
+          <img src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=800&q=80" alt="Índia - Taj Mahal e Templos">
+        </div>
+        <div class="card-content">
+          <p class="card-description">Cores vibrantes, templos sagrados intensos e uma cultura muito própria.</p>
+        </div>
+      </div>
+
+      <!-- Bolívia -->
+      <div class="card">
+        <div class="card-image-wrapper">
+          <span class="country-title-overlay">Bolívia</span>
+          <img src="https://images.unsplash.com/photo-1533050487297-09b450131914?auto=format&fit=crop&w=800&q=80" alt="Bolívia - Salar de Uyuni">
+        </div>
+        <div class="card-content">
+          <p class="card-description">Abriga o maior deserto de sal do mundo, o Salar de Uyuni, e paisagens andinas.</p>
+        </div>
+      </div>
+
+      <!-- Egito -->
+      <div class="card">
+        <div class="card-image-wrapper">
+          <span class="country-title-overlay">Egito</span>
+          <img src="https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?auto=format&fit=crop&w=800&q=80" alt="Egito - Pirâmides de Gizé">
+        </div>
+        <div class="card-content">
+          <p class="card-description">Ruínas faraônicas gigantes, o Rio Nilo e pirâmides milenares.</p>
+        </div>
+      </div>
+
+      <!-- Vietnã -->
+      <div class="card">
+        <div class="card-image-wrapper">
+          <span class="country-title-overlay">Vietnã</span>
+          <img src="https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=800&q=80" alt="Vietnã - Ha Long Bay">
+        </div>
+        <div class="card-content">
+          <p class="card-description">Vilarejos flutuantes, baías com formações de pedra calcária e culinária rica.</p>
+        </div>
+      </div>
+
+      <!-- Tanzânia -->
+      <div class="card">
+        <div class="card-image-wrapper">
+          <span class="country-title-overlay">Tanzânia</span>
+          <img src="https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=800&q=80" alt="Tanzânia - Safári Serengeti">
+        </div>
+        <div class="card-content">
+          <p class="card-description">Safáris selvagens no Serengeti e praias de águas claras.</p>
+        </div>
+      </div>
+
+      <!-- Turquia -->
+      <div class="card">
+        <div class="card-image-wrapper">
+          <span class="country-title-overlay">Turquia</span>
+          <img src="https://images.unsplash.com/photo-1527838832700-5059252407fa?auto=format&fit=crop&w=800&q=80" alt="Turquia - Capadócia e Balões">
+        </div>
+        <div class="card-content">
+          <p class="card-description">Balões no céu da Capadócia e a mistura entre Europa e Ásia.</p>
+        </div>
+      </div>
+
+
+       <!-- Mongolia -->
+      <div class="card">
+        <div class="card-image-wrapper">
+          <span class="country-title-overlay">Mongolia</span>
+          <img src="https://www.adventureclub.com.br/wp-content/uploads/2015/05/sukhbaatar-square-mongolia-galeria.jpg" alt="Mongolia - Ulaanbaatar  ">
+        </div>
+        <div class="card-content">
+          <p class="card-description">Herança ligada a Genghis Khan e ao imenso Império Mongol, por sua forte tradição de povo nômade.</p>
+        </div>
+      </div>
+
+      <link rel="stylesheet" href="/script/index.js">
+
+    </div>
+  </div>
+
 </body>
 </html>
