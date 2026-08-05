@@ -130,7 +130,8 @@ Não é necessário instalar dependências.
 
 ## 👩‍💻 Desenvolvido por
 
-**Thaís Gimenez**
+**Thaís Gimenez Silva**
+**Leticia Nascimento Gomes**
 
 Projeto desenvolvido para fins acadêmicos, explorando conceitos de HTML, CSS e JavaScript na criação de um site de destinos turísticos.
 
