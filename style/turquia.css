@@ -66,3 +66,67 @@ button:hover{
     background:#9d0208;
     transform:scale(1.05);
 }
+
+/* MODAL */
+
+.modal{
+    display:none;
+    position:fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,.7);
+    justify-content:center;
+    align-items:center;
+    z-index:1000;
+}
+
+.modal-content{
+    background:#fff;
+    width:90%;
+    max-width:600px;
+    padding:30px;
+    border-radius:12px;
+    position:relative;
+    animation:aparecer .3s;
+}
+
+.modal-content h2{
+    margin-bottom:20px;
+    color:#d62828;
+}
+
+.modal-content p{
+    margin-bottom:15px;
+    line-height:1.6;
+}
+
+.modal-content ul{
+    margin-left:20px;
+    margin-bottom:20px;
+}
+
+.modal-content li{
+    margin:8px 0;
+}
+
+.fechar{
+    position:absolute;
+    right:18px;
+    top:10px;
+    font-size:30px;
+    cursor:pointer;
+}
+
+@keyframes aparecer{
+    from{
+        transform:translateY(-30px);
+        opacity:0;
+    }
+
+    to{
+        transform:translateY(0);
+        opacity:1;
+    }
+}
