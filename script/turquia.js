@@ -6,6 +6,7 @@ const modalTurismo = document.getElementById("modalTurismo");
 
 const fechar = document.querySelectorAll(".fechar");
 
+
 // Abrir modais
 btnHistoria.onclick = () => {
     modalHistoria.style.display = "flex";
