@@ -1,4 +1,4 @@
-# 🌍 Explore Mundo - Países Turísticos
+# 🌍 Países Turísticos
 
 Projeto desenvolvido com o objetivo de apresentar destinos turísticos ao redor do mundo de forma interativa, destacando a cultura, história e principais atrações de cada país.
 
@@ -47,44 +47,6 @@ O projeto foi desenvolvido utilizando apenas tecnologias Front-End.
 - JavaScript
 - Google Fonts
 
----
-
-## 📂 Estrutura do Projeto
-
-```
-📁 Projeto
-│
-├── index.html
-│
-├── 📁 style
-│   ├── index.css
-│   ├── japao.css
-│   ├── islandia.css
-│   ├── marrocos.css
-│   ├── india.css
-│   ├── bolivia.css
-│   ├── egito.css
-│   ├── vietna.css
-│   ├── tanzania.css
-│   ├── turquia.css
-│   └── mongolia.css
-│
-├── 📁 script
-│   ├── index.js
-│   ├── japao.js
-│   ├── islandia.js
-│   ├── marrocos.js
-│   ├── india.js
-│   ├── bolivia.js
-│   ├── egito.js
-│   ├── vietna.js
-│   ├── tanzania.js
-│   ├── turquia.js
-│   └── mongolia.js
-│
-└── 📁 img
-    ├── imagens dos países
-    └── ícones
 ```
 
 ---
