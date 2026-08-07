@@ -88,7 +88,3 @@ Durante o desenvolvimento deste projeto, aprendi a utilizar **HTML, CSS, JavaScr
 **Leticia Nascimento Gomes**
 
 Projeto desenvolvido para fins acadêmicos, explorando conceitos de HTML, CSS e JavaScript na criação de um site de destinos turísticos.
-
----
-
-⭐ Se gostou do projeto, deixe uma estrela no repositório!
