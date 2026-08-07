@@ -47,8 +47,6 @@ O projeto foi desenvolvido utilizando apenas tecnologias Front-End.
 - JavaScript
 - Google Fonts
 
-```
-
 ---
 
 ## 🎯 Objetivo
