@@ -9,14 +9,13 @@ body{
     background:#d8c3a5;
 }
 
-/* CONTAINER */
 
 .container{
     display:flex;
     min-height:100vh;
 }
 
-/* MENU LATERAL */
+
 
 .menu{
     width:260px;
@@ -64,7 +63,7 @@ body{
     color:#f5c86b;
 }
 
-/* CONTEÚDO */
+
 
 main{
     flex:1;
@@ -98,7 +97,7 @@ main{
     line-height:1.8;
     font-size:18px;
 }
-/* MODAL */
+
 
 .modal{
     display:none;
@@ -163,7 +162,6 @@ main{
     }
 }
 
-/* RESPONSIVO */
 
 @media(max-width:900px){
 

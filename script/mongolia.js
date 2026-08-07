@@ -7,7 +7,6 @@ const modalTurismo = document.getElementById("modalTurismo");
 const fecharHistoria = document.getElementById("fecharHistoria");
 const fecharTurismo = document.getElementById("fecharTurismo");
 
-/* ---------- FUNÇÕES ---------- */
 
 function abrirModal(modal){
     modal.style.display = "flex";
@@ -19,7 +18,7 @@ function fecharModal(modal){
     document.body.style.overflow = "auto";
 }
 
-/* ---------- BOTÕES ---------- */
+// BOTÕES 
 
 btnHistoria.addEventListener("click", () => {
     abrirModal(modalHistoria);
@@ -29,7 +28,6 @@ btnTurismo.addEventListener("click", () => {
     abrirModal(modalTurismo);
 });
 
-/* ---------- FECHAR ---------- */
 
 fecharHistoria.addEventListener("click", () => {
     fecharModal(modalHistoria);
@@ -39,7 +37,6 @@ fecharTurismo.addEventListener("click", () => {
     fecharModal(modalTurismo);
 });
 
-/* ---------- CLICAR FORA ---------- */
 
 window.addEventListener("click", (e) => {
 
@@ -97,7 +94,7 @@ cards.forEach((card)=>{
 
 });
 
-/* ---------- ANIMAÇÃO DA IMAGEM ---------- */
+// ANIMAÇÃO DA IMAGEM 
 
 const imagem = document.querySelector(".hero-imagem img");
 
@@ -118,7 +115,7 @@ imagem.addEventListener("mouseleave",()=>{
 
 });
 
-/* ---------- BOTÕES ---------- */
+// BOTÕES 
 
 const botoes = document.querySelectorAll("button");
 
@@ -138,7 +135,7 @@ botoes.forEach((botao)=>{
 
 });
 
-/* ---------- SCROLL SUAVE ---------- */
+// SCROLL SUAVE
 
 document.querySelector('a[href="/index.html"]').addEventListener("click",()=>{
 

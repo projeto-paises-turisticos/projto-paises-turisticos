@@ -10,7 +10,7 @@ const modalTurismo = document.getElementById("modalTurismo");
 const fecharHistoria = document.getElementById("fecharHistoria");
 const fecharTurismo = document.getElementById("fecharTurismo");
 
-// ===== Abrir Modais =====
+// Abrir Modais
 btnHistoria.addEventListener("click", () => {
     modalHistoria.style.display = "flex";
 });
@@ -19,7 +19,7 @@ btnTurismo.addEventListener("click", () => {
     modalTurismo.style.display = "flex";
 });
 
-// ===== Fechar Modais =====
+// Fechar Modais 
 fecharHistoria.addEventListener("click", () => {
     modalHistoria.style.display = "none";
 });
@@ -28,7 +28,7 @@ fecharTurismo.addEventListener("click", () => {
     modalTurismo.style.display = "none";
 });
 
-// ===== Fechar clicando fora =====
+// Fechar clicando fora 
 window.addEventListener("click", (event) => {
 
     if (event.target === modalHistoria) {
@@ -41,7 +41,7 @@ window.addEventListener("click", (event) => {
 
 });
 
-// ===== Fechar com a tecla ESC =====
+// Fechar 
 document.addEventListener("keydown", (event) => {
 
     if (event.key === "Escape") {

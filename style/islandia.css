@@ -1,7 +1,5 @@
 
-/* ================================
-   RESET
-================================ */
+
 * {
     margin: 0;
     padding: 0;
@@ -19,9 +17,7 @@ body {
     background: #071521;
 }
 
-/* ================================
-   HEADER
-================================ */
+
 header {
     min-height: 100vh;
     position: relative;
@@ -38,9 +34,6 @@ header {
     background-position: center;
 }
 
-/* ================================
-   NAVBAR
-================================ */
 nav {
     width: 90%;
     max-width: 1200px;
@@ -83,7 +76,6 @@ nav ul li a {
     transition: 0.3s;
 }
 
-/* Linha embaixo do menu */
 nav ul li a::after {
     content: "";
 
@@ -110,9 +102,7 @@ nav ul li a:hover::after {
     width: 100%;
 }
 
-/* ================================
-   HERO
-================================ */
+
 .hero {
     min-height: calc(100vh - 90px);
 
@@ -147,9 +137,6 @@ nav ul li a:hover::after {
     pointer-events: none;
 }
 
-/* ================================
-   TÍTULO
-================================ */
 .hero h1 {
     position: relative;
 
@@ -182,9 +169,6 @@ nav ul li a:hover::after {
     margin-bottom: 40px;
 }
 
-/* ================================
-   BOTÕES
-================================ */
 .botoes {
     position: relative;
 
@@ -232,9 +216,6 @@ nav ul li a:hover::after {
     transform: translateY(-2px);
 }
 
-/* ================================
-   EFEITO AURORA
-================================ */
 header::after {
     content: "";
 
@@ -280,9 +261,7 @@ header::after {
     }
 }
 
-/* ================================
-   RESPONSIVIDADE
-================================ */
+
 @media (max-width: 700px) {
 
     nav {
@@ -323,7 +302,6 @@ header::after {
     }
 }
 
-/* MODAL */
 
 .modal{
     display:none;

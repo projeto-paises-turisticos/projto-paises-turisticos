@@ -10,7 +10,7 @@ body{
     color:#333;
 }
 
-/* HEADER */
+
 
 header{
     height:100vh;
@@ -90,7 +90,7 @@ button:hover{
     transform:scale(1.05);
 }
 
-/* CARDS */
+
 
 .cards{
     display:flex;
@@ -118,27 +118,8 @@ button:hover{
     color:#d62839;
 }
 
-/* SOBRE */
 
-.sobre{
-    max-width:900px;
-    margin:auto;
-    text-align:center;
-    padding:30px 40px 70px;
-}
 
-.sobre h2{
-    color:#d62839;
-    margin-bottom:20px;
-    font-size:35px;
-}
-
-.sobre p{
-    font-size:18px;
-    line-height:1.8;
-}
-
-/* FOOTER */
 
 footer{
     background:#222;
@@ -147,7 +128,7 @@ footer{
     padding:20px;
 }
 
-/* RESPONSIVO */
+
 
 @media(max-width:768px){
 

@@ -14,7 +14,7 @@ body {
     color: white;
 }
 
-/* NAVBAR */
+
 
 nav {
     display: flex;
@@ -63,7 +63,7 @@ nav a:hover {
     color: #f8d568;
 }
 
-/* HERO */
+
 
 .hero {
     height: calc(100vh - 90px);

@@ -1,9 +1,9 @@
-// script.js - Funcionalidades interativas para a página Explorar
+
 
 document.addEventListener('DOMContentLoaded', () => {
   const cards = document.querySelectorAll('.card');
 
-  // 1. Efeito 3D sutil de inclinação (tilt) ao mover o mouse sobre cada card
+  // Efeito 3D sutil de inclinação (tilt) ao mover o mouse sobre cada card
   cards.forEach(card => {
     card.addEventListener('mousemove', (e) => {
       const rect = card.getBoundingClientRect();
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // 2. Animação de entrada em cascata (Fade-In)
+  // Animação de entrada em cascata (Fade-In)
   cards.forEach((card, index) => {
     card.style.opacity = '0';
     card.style.transform = 'translateY(20px)';

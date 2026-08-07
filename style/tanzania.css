@@ -10,13 +10,12 @@ body{
     color:white;
 }
 
-/* HEADER */
+
 
 header{
     min-height:100vh;
 }
 
-/* NAV */
 
 nav{
     display:flex;
@@ -47,7 +46,7 @@ nav a:hover{
     color:#00ffae;
 }
 
-/* HERO */
+
 
 .hero{
     display:flex;
@@ -55,7 +54,7 @@ nav a:hover{
     align-items:center;
 }
 
-/* IMAGEM */
+
 
 .imagem{
     width:100%;
@@ -73,7 +72,7 @@ nav a:hover{
     box-shadow:0 15px 30px rgba(0,0,0,.4);
 }
 
-/* TEXTO */
+
 
 .texto{
     width:85%;
@@ -94,7 +93,7 @@ nav a:hover{
     margin-bottom:35px;
 }
 
-/* BOTÕES */
+
 
 .botoes{
     width:100%;
@@ -162,7 +161,7 @@ button:hover{
     line-height:1.7;
 }
 
-/* FOOTER */
+
 
 footer{
     background:#02110d;
@@ -171,7 +170,6 @@ footer{
     margin-top:30px;
 }
 
-/* MODAL */
 
 .modal{
     display:none;

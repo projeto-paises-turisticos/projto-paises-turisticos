@@ -10,7 +10,7 @@ body{
     color:#444;
 }
 
-/* NAVBAR */
+
 
 nav{
     position:fixed;
@@ -51,7 +51,7 @@ nav a:hover{
     color:#79b7df;
 }
 
-/* HERO */
+
 
 .hero{
     min-height:100vh;
@@ -119,7 +119,7 @@ nav a:hover{
     transform:scale(1.03);
 }
 
-/* BOTÕES */
+
 
 .botoes{
     display:flex;
@@ -145,7 +145,6 @@ button:hover{
     box-shadow:0 15px 35px rgba(77,149,203,.45);
 }
 
-/* CARDS */
 
 .cards{
     display:flex;
@@ -181,7 +180,7 @@ button:hover{
     line-height:1.8;
 }
 
-/* MODAL */
+
 
 .modal{
     display:none;
@@ -244,7 +243,7 @@ button:hover{
 
 }
 
-/* FOOTER */
+
 
 footer{
     background:#4f86a8;
@@ -254,7 +253,7 @@ footer{
     margin-top:50px;
 }
 
-/* RESPONSIVO */
+
 
 @media(max-width:900px){
 

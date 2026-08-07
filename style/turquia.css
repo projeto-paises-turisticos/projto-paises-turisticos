@@ -67,7 +67,7 @@ button:hover{
     transform:scale(1.05);
 }
 
-/* MODAL */
+
 
 .modal{
     display:none;
@@ -131,7 +131,6 @@ button:hover{
     }
 }
 
-/* NAVBAR */
 
 nav{
     position:fixed;
