@@ -78,9 +78,7 @@ button{
     transition:.3s;
 }
 
-button:hover{
-    background:#2e7d32;
-}
+
 
 /* MODAL */
 
@@ -166,10 +164,6 @@ modal{
     transition:.3s;
 }
 
-.fechar:hover{
-    transform:rotate(90deg);
-    background:#2e7d32;
-}
 
 @keyframes subir{
     from{

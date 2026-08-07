@@ -130,3 +130,20 @@ button:hover{
         opacity:1;
     }
 }
+
+/* NAVBAR */
+
+nav{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 8%;
+    background:rgba(255,255,255,.75);
+    backdrop-filter:blur(12px);
+    box-shadow:0 5px 18px rgba(0,0,0,.08);
+    z-index:999;
+}
